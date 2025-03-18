@@ -89,6 +89,21 @@ For information about delivery optimization, see [Delivery Optimization for Wind
 - Client to Service communication: `*.do.dsp.mp.microsoft.com` (HTTP Port 80, HTTPS Port 443)
 - Client to Client communication: TCP port 7680 should be open for inbound traffic
 
+### Sign In
+
+These endpoints are required for profile sign in to work correctly, both for Microsoft and Entra accounts.
+
+- `https://login.live.com`
+- `https://login.microsoftonline.com`
+- `https://login.microsoft.com`
+- `https://login.windows.net`
+- `https://odc.officeapps.live.com`
+- `https://graph.microsoft.com`
+- `https://substrate.office.com`
+- `https://privacy.microsoft.com`
+- `https://cdn.odc.officeapps.live.com`
+- `https://logincdn.msauth.net`
+
 ### Sync
 
 These endpoints manage the reading and writing of synced data, rights management for secure data, and notifying the browser when new sync data is available.
